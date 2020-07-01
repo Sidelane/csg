@@ -12,8 +12,6 @@ class Elo:
         self.expected_score()
         self.update_elo()
 
-        self.get_elo()
-
     def __repr__(self):
         return f"Elo({self.p1}, {self.p2}, {self.k}, {self.winner}"
 
@@ -35,5 +33,3 @@ class Elo:
 
     def get_elo(self):
         print(f"Winner: {self.winner} \n Player1: {self.p1} -> {self.p1updated} \n Player2: {self.p2} -> {self.p2updated}")
-
-test = Elo(1200.0, 50.0, 32, 2)
