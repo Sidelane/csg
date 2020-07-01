@@ -1,7 +1,7 @@
-Spieler 1 : 1200 = R(1)
-Spieler 2: 1100 = R(2)
+Player1 : 1200 = R(1)
+Player2: 1100 = R(2)
 
-Transformierte Ratings:
+Transformed Ratings:
 R(1)' = 10 ^ (R(1) / 400) = 1000
 R(2)' = 10 ^ (R(2) / 400) = 562.3413
 
